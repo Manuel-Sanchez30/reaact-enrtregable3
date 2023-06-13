@@ -1,0 +1,181 @@
+
+.app{
+    
+    text-align: center;
+    
+}
+
+h1{
+    
+    margin: 1.5em;
+    color: #E6265C
+}
+
+.app_button{
+    
+    
+    padding: 1em 1.5em;
+    font-weight: 700;
+    background-color: #E6265C;
+    color: white;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    transition: transform 200ms;
+    
+}
+
+.app_button:hover{
+    background-color:white;
+    color: #E6265C;
+    border: 1px solid #E6265C;
+    font-weight: bold;
+    transform:scale(1.1)
+}
+
+.user{
+    
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
+    
+    
+    
+}
+
+.user_card{
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: white;    
+    
+}
+
+.user_email span:nth-child(1){
+    
+    font-weight: 600;
+}
+
+.user_birthday span:nth-child(1){
+    
+    font-weight: 600;
+}
+
+.bx-trash{
+    color: red;
+    background-color:white;
+    border: none;
+}
+
+.bxs-edit-alt{
+    color:cornflowerblue;
+    background-color: white;
+}
+
+.card_btn{
+    
+    display: flex;
+    gap: 1rem;
+}
+
+.form-container{
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    background-color: #0004;
+    backdrop-filter: blur(2px);
+    top: 0;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    transition: transform 200ms ease;
+}
+
+.form{
+    background-color: white;
+    padding: 2em 1.5em 2.5em;
+    border-radius:0.7em;
+    margin-top: 20px;
+    width: 90%;
+    max-width: 350px;
+    height: 650px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    position: relative;
+}
+
+.form_x{
+    position: absolute;
+    font-size: 1.4rem;
+    top: 0.8em;
+    right: 1.2em;
+    cursor: pointer;
+    font-weight: bold; 
+    color: rgb(117, 28, 28);
+}
+
+.form_x:hover{
+    transform: scale(1.2);
+}
+
+.form_close{
+    transform: scale(0);
+}
+
+.form_title{
+    text-align: center;
+    color:darkblue;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+.form_section{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin-bottom: 1.2em;
+}
+
+.form_label{
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.form_input{
+    border: 1px solid #ccc;
+    border-radius: 0.4em;
+    font-weight: 300;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+}
+
+.form_btn{
+    display: block;
+    width: 100%;
+    font-size:1.2em;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: none;
+    background-color: rgb(97,97,182);
+    color: white;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.form_btn:hover{
+    background-color:lightgreen;
+    color: whitesmoke
+}
+
+
+
