@@ -9,6 +9,8 @@
 body{
     font-family: 'Titillium Web', sans-serif;
     background-color: #FFF4F5;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h2{

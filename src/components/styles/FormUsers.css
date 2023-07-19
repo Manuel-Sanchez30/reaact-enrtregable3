@@ -1,8 +1,11 @@
 
 .app{
     
-    text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h1{
@@ -34,15 +37,13 @@ h1{
 }
 
 .user{
-    
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    
-    
-    
+    gap: 1em;
     
 }
 
@@ -60,6 +61,9 @@ h1{
     
 }
 
+
+
+
 .user_email span:nth-child(1){
     
     font-weight: 600;
@@ -74,17 +78,51 @@ h1{
     color: red;
     background-color:white;
     border: none;
+    cursor: pointer;
+    
+}
+
+.bx-trash:hover{
+    transform: scale(1.2);
 }
 
 .bxs-edit-alt{
     color:cornflowerblue;
     background-color: white;
+    cursor: pointer;
+}
+
+.bxs-edit-alt:hover{
+    transform: scale(1.2);
 }
 
 .card_btn{
     
     display: flex;
     gap: 1rem;
+    
+}
+
+@media (min-width: 600px) { 
+
+    .user{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+        padding: 1em;        
+    }    
+}
+
+@media (min-width: 768px) { 
+
+    .user{
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+        padding: 1em;        
+    }    
 }
 
 .form-container{

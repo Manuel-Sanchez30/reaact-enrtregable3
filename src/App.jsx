@@ -49,7 +49,7 @@ function App() {
           />
       </div>
 
-      <div>
+      <div className='user'>
         {
           users?.map(user=>(
             <UsersCard

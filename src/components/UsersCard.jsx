@@ -13,9 +13,9 @@ const UsersCard = ({user, deleteUserById, setUpdateInfo, setIsCloseForm}) => {
 
     return (
 
-        <article >
+        
 
-            <div className="user">
+            <div>
                 <div className="user_card">
 
                     <h3 className="user_name">{`${user.first_name} ${user.last_name}`}</h3>
@@ -38,7 +38,7 @@ const UsersCard = ({user, deleteUserById, setUpdateInfo, setIsCloseForm}) => {
             </div>
             
             
-        </article>
+    
 
     )
 }
