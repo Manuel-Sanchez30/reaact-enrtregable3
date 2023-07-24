@@ -3,6 +3,7 @@ import './App.css'
 import useFetch from './hooks/useFetch'
 import FormUsers from './components/FormUsers'
 import UsersCard from './components/UsersCard'
+import { URL_API } from '../../url'
 
 function App() {
 
@@ -10,8 +11,9 @@ function App() {
 
   const [updateInfo, setUpdateInfo] = useState()
 
+  const url = URL_API.url
   //const baseUrl = 'https://users-crud.academlo.tech/'
-  const baseUrl = 'https://user-crud-4ddm.onrender.com/api/v1'
+  const baseUrl = url
   
   const [ 
     users,
