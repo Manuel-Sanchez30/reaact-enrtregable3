@@ -10,7 +10,8 @@ function App() {
 
   const [updateInfo, setUpdateInfo] = useState()
 
-  const baseUrl = 'https://users-crud.academlo.tech/'
+  //const baseUrl = 'https://users-crud.academlo.tech/'
+  const baseUrl = 'https://user-crud-4ddm.onrender.com/api/v1'
   
   const [ 
     users,
